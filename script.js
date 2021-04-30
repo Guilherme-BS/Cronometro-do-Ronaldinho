@@ -30,7 +30,7 @@ function cronometro() {
         button.id = `button`
         button.onclick = function(){
           window.location.reload()
-      }
+        }
       document.getElementById(`btn`).appendChild(button)
       }
     }, 1000);
